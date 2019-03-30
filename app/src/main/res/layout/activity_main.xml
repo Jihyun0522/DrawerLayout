@@ -12,11 +12,12 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <Button
+        <ImageButton
             android:id="@+id/opendrawer"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Open Drawer" />
+            android:layout_height="match_parent"
+            android:text="Open Drawer"
+            android:background="@drawable/cancel"/>
 
         <TextView
             android:id="@+id/prompt"

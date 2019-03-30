@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private View drawerView;
 
+    private ImageButton buttonOpenDrawer;
     private ImageButton buttonCloseDrawer;
 
     @Override
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerView = (View) findViewById(R.id.drawer_menu);
 
-        Button buttonOpenDrawer = (Button) findViewById(R.id.opendrawer);
+        buttonOpenDrawer = (ImageButton) findViewById(R.id.opendrawer);
         buttonOpenDrawer.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View arg0) {
